@@ -1,11 +1,10 @@
 package com.zippo.www.steps;
 
 import com.zippo.www.driver.SeleniumWebDriver;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-
 import java.util.concurrent.TimeUnit;
-
 import static org.junit.Assert.assertEquals;
 
 public class MetodosSteps {
@@ -30,7 +29,7 @@ public class MetodosSteps {
     }
 
     public void validacion(By localizador, String texto){
-        assertEquals(getTextelement(localizador),texto);
+        assertEquals(texto,getTextelement(localizador));
     }
 
     public void cerrarNavegador(){SeleniumWebDriver.driver.quit();}

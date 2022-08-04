@@ -1,64 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Probar la busqueda de multiples productos del Home de Zippo" tests="5" skipped="4" failures="0" errors="0" timestamp="2022-08-04T00:49:59" hostname="DESKTOP-OU5DM7F" time="0.178">
+<testsuite name="Probar la busqueda de multiples productos del Home de Zippo" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-04T23:47:53" hostname="DESKTOP-OU5DM7F" time="25.14">
   <properties/>
-  <testcase name="Validar producto del Homepage" classname="Probar la busqueda de multiples productos del Home de Zippo" time="0.135">
-    <skipped/>
-  </testcase>
-  <testcase name="Validar producto del Homepage" classname="Probar la busqueda de multiples productos del Home de Zippo" time="0.009">
-    <skipped/>
-  </testcase>
-  <testcase name="Validar producto del Homepage" classname="Probar la busqueda de multiples productos del Home de Zippo" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase name="Validar producto del Homepage" classname="Probar la busqueda de multiples productos del Home de Zippo" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase name="Validar producto del Homepage" classname="Probar la busqueda de multiples productos del Home de Zippo" time="0.008"/>
+  <testcase name="Validar producto del Homepage" classname="Probar la busqueda de multiples productos del Home de Zippo" time="25.14"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Validar producto del Homepage
----------------------------------------------------------------------------------
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Validar producto del Homepage
----------------------------------------------------------------------------------
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Validar producto del Homepage
----------------------------------------------------------------------------------
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Validar producto del Homepage
----------------------------------------------------------------------------------
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 42065
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ago 04, 2022 6:47:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 

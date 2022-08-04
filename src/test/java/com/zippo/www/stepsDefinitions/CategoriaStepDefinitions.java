@@ -21,13 +21,8 @@ public class CategoriaStepDefinitions {
         categoriasSteps.buscarCategoria();
     }
 
-    @Y("^valido datos del producto$")
-    public void validoDatosDelProducto() {
-        categoriasSteps.validarProducto();
-    }
-
-    @Entonces("^obtengo tengo certeza que estoy en el producto seleccionado$")
-    public void obtengoTengoCertezaQueEstoyEnElProductoSeleccionado() {
+    @Entonces("^obtengo tengo certeza que estoy en la pagina del producto seleccionado$")
+    public void obtengoTengoCertezaQueEstoyEnLaPaginaDelProductoSeleccionado() {
         categoriasSteps.cerrarNavegador();
     }
 }
