@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Probar la busqueda de multiples productos del Home de Zippo" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-04T23:47:53" hostname="DESKTOP-OU5DM7F" time="25.14">
+<testsuite name="Probar la busqueda de multiples productos del Home de Zippo" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-05T17:22:58" hostname="DESKTOP-OU5DM7F" time="27.337">
   <properties/>
-  <testcase name="Validar producto del Homepage" classname="Probar la busqueda de multiples productos del Home de Zippo" time="25.14"/>
+  <testcase name="Validar producto del Homepage" classname="Probar la busqueda de multiples productos del Home de Zippo" time="27.337"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 42065
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 24070
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-ago 04, 2022 6:47:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ago 05, 2022 12:23:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

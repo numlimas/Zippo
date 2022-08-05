@@ -10,14 +10,9 @@ public class HomePage {
     private By btnInserto = By.xpath("(//a[@href='https://zippo.com.co/product-category/inserto/'])[1]");
 
 
-    private By lblProdCombustible = By.xpath("//h1[contains(text(),'Combustible Para Encendedor')]");
     private By btnProdCombustible = By.xpath("//a[@href='https://zippo.com.co/product/combustible-para-encendedor-zippo-4oz-cod-3141laex/']");
 
     private By bntProdDispensador = By.xpath("//a[@href='https://zippo.com.co/product/dispensador-guarda-combustible-zippo-cod-121503/']");
-
-    private By lblProdDispensador = By.xpath("//h1[contains(text(),'Dispensador Guarda')]");
-
-    private By lblProdInserto = By.xpath("//h1[contains(text(),'Inserto Encendedor')]");
 
     private By btnProdInsertoD = By.xpath("//a[@href='https://zippo.com.co/product/inserto-encendedor-zippo-butano-llama-doble-cod-65827/']");
 
@@ -25,16 +20,15 @@ public class HomePage {
 
     private By btnProdMecha = By.xpath("//a[@href='https://zippo.com.co/product/mecha-para-encendedor-zippo-cod-2425/']");
 
-    private By lblProdMecha = By.xpath("//h1[contains(text(),'Mecha')]");
 
     public By getTxtBusqueda() {
         return txtBusqueda;
     }
-
-
     public By getBtnHome() {
         return btnHome;
     }
+
+
     public By getBtnAccesorios() {
         return btnAccesorios;
     }
@@ -46,9 +40,6 @@ public class HomePage {
         return btnInserto;
     }
 
-    public By getLblProdCombustible() {
-        return lblProdCombustible;
-    }
 
     public By getBtnProdCombustible() {
         return btnProdCombustible;
@@ -56,14 +47,6 @@ public class HomePage {
 
     public By getBntProdDispensador() {
         return bntProdDispensador;
-    }
-
-    public By getLblProdDispensador() {
-        return lblProdDispensador;
-    }
-
-    public By getLblProdInserto() {
-        return lblProdInserto;
     }
 
     public By getBtnProdInsertoD() {
@@ -76,9 +59,5 @@ public class HomePage {
 
     public By getBtnProdMecha() {
         return btnProdMecha;
-    }
-
-    public By getLblProdMecha() {
-        return lblProdMecha;
     }
 }

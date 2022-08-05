@@ -5,6 +5,7 @@ import com.zippo.www.utils.LecturaExcel;
 import com.zippo.www.utils.Scroll;
 
 import net.thucydides.core.annotations.Step;
+import org.openqa.selenium.By;
 
 
 public class MultipleBusquedaSteps extends MetodosSteps{
@@ -12,30 +13,16 @@ public class MultipleBusquedaSteps extends MetodosSteps{
     Scroll scroll = new Scroll();
 
     @Step
-    public void pasos(){
-        scroll.scrollPixels();
-        scroll.scrollAElemento(homePage.getBtnProdCombustible());
-        clickear(homePage.getBtnProdCombustible());
-        validacion(homePage.getLblProdCombustible(),LecturaExcel.validaciones.get(0).toString());
-        clickear(homePage.getBtnHome());
-        scroll.scrollPixels();
-        scroll.scrollAElemento(homePage.getBntProdDispensador());
-        clickear(homePage.getBntProdDispensador());
-        validacion(homePage.getLblProdDispensador(),LecturaExcel.validaciones.get(1).toString());
-        clickear(homePage.getBtnHome());
-        scroll.scrollPixels();
-        scroll.scrollAElemento(homePage.getBtnProdInsertoD());
-        clickear(homePage.getBtnProdInsertoD());
-        validacion(homePage.getLblProdInserto(),LecturaExcel.validaciones.get(3).toString());
-        clickear(homePage.getBtnHome());
-        scroll.scrollPixels();
-        scroll.scrollAElemento(homePage.getBtnProdInsertoS());
-        clickear(homePage.getBtnProdInsertoS());
-        validacion(homePage.getLblProdInserto(),LecturaExcel.validaciones.get(2).toString());
-        clickear(homePage.getBtnHome());
-        scroll.scrollPixels();
-        scroll.scrollAElemento(homePage.getBtnProdMecha());
-        clickear(homePage.getBtnProdMecha());
-        validacion(homePage.getLblProdMecha(),LecturaExcel.validaciones.get(4).toString());
+    public void pasosAcort(){
+        By[] btnProducto = {homePage.getBtnProdCombustible(),homePage.getBntProdDispensador(),homePage.getBtnProdInsertoS(),homePage.getBtnProdInsertoD(),homePage.getBtnProdMecha()};
+        By lblProducto = By.xpath("//h1[@class='product_title entry-title']");
+        for (int i = 0; i < btnProducto.length; i++) {
+            scroll.scrollPixels();
+            scroll.scrollAElemento(btnProducto[i]);
+            clickear(btnProducto[i]);
+            validacion(lblProducto,LecturaExcel.validaciones.get(i).toString());
+            clickear(homePage.getBtnHome());
+        }
+
     }
 }

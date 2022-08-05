@@ -3,10 +3,10 @@ package com.zippo.www.stepsDefinitions;
 import com.zippo.www.driver.SeleniumWebDriver;
 import com.zippo.www.steps.CategoriasSteps;
 import com.zippo.www.utils.LecturaExcel;
+
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
-import cucumber.api.java.es.Y;
 
 public class CategoriaStepDefinitions {
     CategoriasSteps categoriasSteps = new CategoriasSteps();
@@ -18,7 +18,7 @@ public class CategoriaStepDefinitions {
 
     @Cuando("^elijo una categoria de busqueda y doy click al producto que quiero$")
     public void elijoUnaCategoriaDeBusquedaYDoyClickAlProductoQueQuiero() {
-        categoriasSteps.buscarCategoria();
+        categoriasSteps.buscarAcort();
     }
 
     @Entonces("^obtengo tengo certeza que estoy en la pagina del producto seleccionado$")

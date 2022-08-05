@@ -1,9 +1,9 @@
 package com.zippo.www.stepsDefinitions;
 
-
 import com.zippo.www.driver.SeleniumWebDriver;
 import com.zippo.www.steps.MultipleBusquedaSteps;
 import com.zippo.www.utils.LecturaExcel;
+
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
@@ -20,7 +20,7 @@ public class MultipleStepDefinitions {
 
     @Cuando("^quiero un producto le doy click y valido que sea la pagina del producto$")
     public void quieroUnProductoLeDoyClickYValidoQueSeaLaPaginaDelProducto() {
-        multipleBusquedaSteps.pasos();
+        multipleBusquedaSteps.pasosAcort();
     }
 
 
