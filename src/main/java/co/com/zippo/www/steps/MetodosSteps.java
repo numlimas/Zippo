@@ -11,6 +11,7 @@ public class MetodosSteps {
 
 
     public void escribirEnter(By localizador, String texto){
+        limpiar(localizador);
         SeleniumWebDriver.driver.findElement(localizador).sendKeys(texto, Keys.ENTER);
         SeleniumWebDriver.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
     }

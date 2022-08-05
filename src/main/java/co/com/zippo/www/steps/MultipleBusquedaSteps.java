@@ -17,7 +17,6 @@ public class MultipleBusquedaSteps extends MetodosSteps{
         By[] btnProducto = {homePage.getBtnProdCombustible(),homePage.getBntProdDispensador(),homePage.getBtnProdInsertoS(),homePage.getBtnProdInsertoD(),homePage.getBtnProdMecha()};
         By lblProducto = By.xpath("//h1[@class='product_title entry-title']");
         for (int i = 0; i < btnProducto.length; i++) {
-            scroll.scrollPixels();
             scroll.scrollAElemento(btnProducto[i]);
             clickear(btnProducto[i]);
             validacion(LecturaExcel.validaciones.get(i).toString(),lblProducto);

@@ -22,7 +22,7 @@ public class CategoriasSteps extends MetodosSteps {
     public void buscarAcort() {
         By[] btnCategoria = {homePage.getBtnEncendedores(), homePage.getBtnAccesorios(), homePage.getBtnInserto()};
         By[] btnSubCategoria = {encendPage.getBtnEncViento(), accesoriosPage.getBtnSubCat(), insertoPage.getBtnSubCat()};
-        By[] btnProducto = {encendPage.getBtnEncCarta(),accesoriosPage.getBtnEstucheCafe(),insertoPage.getBtnProdAmar()};
+        By[] btnProducto = {encendPage.getBtnEncCarta(), accesoriosPage.getBtnEstucheCafe(), insertoPage.getBtnProdAmar()};
         By lblProducto = By.xpath("//h1[@class='product_title entry-title']");
 
         for (int i = 0; i < btnProducto.length; i++) {
@@ -31,10 +31,10 @@ public class CategoriasSteps extends MetodosSteps {
             clickear(btnSubCategoria[i]);
             scroll.scrollAElemento(btnProducto[i]);
             clickear(btnProducto[i]);
-            validacion(LecturaExcel.valCat.get(i).toString(),lblProducto);
+            validacion(LecturaExcel.valCat.get(i).toString(), lblProducto);
             clickear(homePage.getBtnHome());
         }
 
     }
-
 }
+

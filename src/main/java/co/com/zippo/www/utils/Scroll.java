@@ -3,6 +3,7 @@ package co.com.zippo.www.utils;
 import co.com.zippo.www.driver.SeleniumWebDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import java.util.concurrent.TimeUnit;
 
